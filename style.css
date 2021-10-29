@@ -3,8 +3,12 @@ h1 {
     background: black;
     text-align: center;
     text-transform: uppercase;
-    padding: 50px;
+    padding: 10px;
     color: white;
+    white-space: nowrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 h2 {
@@ -17,6 +21,7 @@ h2 {
     background: black;
     color: white;
     width: 100%;
+    font-size: 16px;
 }
 
 h5 {
@@ -75,23 +80,22 @@ hr {
     width: 50px;
 } */
 
-html { font-size: 16px; }
+html { font-size: 40px; }
 
 @media (max-width: 550px) {
-  p { font-size: .85em; }
+  p { font-size: .8em; }
 }
 
 @media (min-width: 551px) {
   p { font-size: .9rem; }
 }
-
 @media (max-width: 550px) {
-    h1 { font-size: .98em; }
+    h1 { font-size: .5rem; }
   }
   
   @media (min-width: 551px) {
-    h1 { font-size: 1.25rem; }
-  }
+    h1 { font-size: .5rem; }
+  
 
   @media (max-width: 550px) {
     h2 { font-size: .95em; }
