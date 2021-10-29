@@ -9,6 +9,8 @@ h2 {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
+    padding-bottom:10px;
+    padding-top: 30px;
 }
 
 h5 {
