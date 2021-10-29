@@ -25,6 +25,9 @@ h5 {
     text-align: center;
     text-transform: uppercase;
     width: 8em;
+    color: black;
+    font-weight:900;
+    font-style: italic;
 
 
 }
@@ -63,6 +66,46 @@ hr {
     background-color: rgb(0, 0, 0);
     z-index: 1; */
 
-body.background {
-    background-color: slategray;
+/* body.background { */
+    /* background-color: rgb(0, 0, 0); */
 }
+
+/* span {
+    display: inline-block;
+    width: 50px;
+} */
+
+html { font-size: 16px; }
+
+@media (max-width: 550px) {
+  p { font-size: .85em; }
+}
+
+@media (min-width: 551px) {
+  p { font-size: .9rem; }
+}
+
+@media (max-width: 550px) {
+    h1 { font-size: 1em; }
+  }
+  
+  @media (min-width: 551px) {
+    h1 { font-size: 1.25rem; }
+  }
+
+  @media (max-width: 550px) {
+    h2 { font-size: .95em; }
+  }
+  
+  @media (min-width: 551px) {
+    h2 { font-size: 1.15rem; }
+  }
+
+  @media (max-width: 550px) {
+    h5 { font-size: .9em; }
+  }
+  
+  @media (min-width: 551px) {
+    h5 { font-size: 1.1rem; }
+  }
+
